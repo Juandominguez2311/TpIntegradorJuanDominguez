@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#434040"
+    tools:context=".Principal">
+
+    <TextView
+        android:id="@+id/titulo_principal"
+        android:layout_width="341dp"
+        android:layout_height="38dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <RadioGroup
+        android:id="@+id/rgroup_Comidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_principal"
+        app:layout_constraintVertical_bias="0.042">
+
+        <RadioButton
+            android:id="@+id/rb_Desayuno"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="@string/rb_Desayuno"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_Almuerzo"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="27dp"
+            android:text="@string/rb_Almuerzo" />
+
+        <RadioButton
+            android:id="@+id/rb_Merienda"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="23dp"
+            android:text="@string/rb_Merienda" />
+
+        <RadioButton
+            android:id="@+id/rb_Cena"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="27dp"
+            android:text="@string/rb_Cena" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_ComidaPrincipal"
+        android:layout_width="409dp"
+        android:layout_height="39dp"
+        android:hint="@string/et_ComidaPrincipal"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgroup_Comidas"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/et_ComidaSecundaria"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:hint="@string/et_ComidaSecundaria"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_ComidaPrincipal"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/et_Bebida"
+        android:layout_width="409dp"
+        android:layout_height="36dp"
+        android:hint="@string/et_Bebida"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_ComidaSecundaria"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <RadioGroup
+        android:id="@+id/rGroup_Postre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_Bebida"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/rb_PostreSi"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="@string/rb_PostreSi"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_PostreNo"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="@string/rb_PostreNo"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_GuardarPrincipal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3"
+        app:layout_constraintVertical_bias="0.921" />
+
+    <RadioGroup
+        android:id="@+id/rGroup_Tentacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.394"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rGroup_Postre"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tv_tentacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/tv_Tentacion" />
+
+        <RadioButton
+            android:id="@+id/rb_TentacionSi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/rb_TentacionSi" />
+
+        <RadioButton
+            android:id="@+id/rb_TentacionNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/rb_TentacionNo" />
+
+        <EditText
+            android:id="@+id/et_tentacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="@string/et_Tentacion" />
+
+        <TextView
+            android:id="@+id/et_Hambre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_Hambre"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginStart="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rGroup_Tentacion"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/rb_HambreSi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_HambreSi"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rb_HambreNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_HambreNo"
+            android:textColor="@color/white" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_dniRegimen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="dniRegimen"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

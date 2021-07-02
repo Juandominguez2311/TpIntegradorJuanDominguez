@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TpIntegradorJuanDominguez</string>
+    <string name="titulo1">Registre un nuevo Usuario</string>
+    <string name="tituloMain">Bienvenido a Saludable App</string>
+    <string name="tituloPrincipal">Ingrese su regimen de comida</string>
+    <string name="tituloFormulario">Bienvenido</string>
+    <string name="tv_Tentacion">¿Tenia tentación de ingerir otro alimento?</string>
+    <string name="tv_Hambre">¿Se quedo con hambre?</string>
+    <string name="tv_Usuario">Ingrese su usuario</string>
+    v
+    <string name="tv_Contraseña">Ingrese su contraseña</string>
+    <string name="et_nombre">nombre</string>
+    <string name="et_apellido">Apellido</string>
+    <string name="et_fechaNacimiento">fecha de nacimiento</string>
+    <string name="et_dni">dni</string>
+    <string name="et_localidad">localidad</string>
+    <string name="et_Usuario">Usuario</string>
+    <string name="et_UsuarioFormulario">Usuario</string>
+    <string name="et_Contraseña">Contraseña</string>
+    <string name="et_ContraseñaFormulario">Contraseña</string>
+    <string name="et_ComidaPrincipal">Comida Principal</string>
+    <string name="et_ComidaSecundaria">Comida Secundaria</string>
+    <string name="et_Bebida">Bebida</string>
+    <string name="et_Tentacion">¿Que alimento era?</string>
+    <string name="rb_Hombre">Hombre</string>
+    <string name="rb_Mujer">Mujer</string>
+    <string name="rb_Anorexia">Anorexia</string>
+    <string name="rb_Bulimia">Bulimia</string>
+    <string name="rb_Obesidad">Obesidad</string>
+    <string name="rb_Desayuno">Desayuno</string>
+    <string name="rb_Almuerzo">Almuerzo</string>
+    <string name="rb_Merienda">Merienda</string>
+    <string name="rb_Cena">Cena</string>
+    <string name="rb_PostreSi">Comio Postre</string>
+    <string name="rb_PostreNo">No Comio Postre</string>
+    <string name="rb_TentacionSi">Si</string>
+    <string name="rb_TentacionNo">No</string>
+    <string name="rb_HambreSi">Si</string>
+    <string name="rb_HambreNo">No</string>
+    <string name="btn_GuardarUsuario">Guardar</string>
+    <string name="btn_Ingresar">Ingresar</string>
+    <string name="btn_Registrarse">Registrarse</string>
+    <string name="btn_GuardarPrincipal">Guardar</string>
+    <string name="btn_Formulario">Ingresar</string>
+    <string name="btn_verTodos">Ver Pacientes</string>
+    <string name="btn_volver">Volver</string>
+</resources>
